@@ -1,1 +1,28 @@
-/* Start coding here */
+ body {
+    background: #d3d3d3; /* lightgrey */
+    margin: 16px;        /* ขอบ lightgrey 16px รอบนอก */
+    min-height: calc(100vh - 32px); /* ลบ margin ออก */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+  
+ .title {
+    font-size: 72px;
+    font-family: serif;
+    text-align: center;
+    background: #f0e68c;      /* khaki */
+    padding: 30px;
+    /* ขอบ crimson 24px, ขอบ black 16px */
+    box-shadow:
+      0 0 0 24px #dc143c,
+      0 0 0 40px #000;
+    min-width: 800px;
+    min-height: 350px;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
