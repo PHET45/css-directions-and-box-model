@@ -1,1 +1,27 @@
 /* Start coding here */
+.boxx_main{
+    border: 16px solid black;
+}
+.boxx_header{
+    border: 24px solid crimson;
+}
+.boxx_content{
+    background-color: khaki;
+    color: black;
+    font-size: 72px;
+    padding-top: 30px;
+    text-align: center;
+    height: 80vh;
+    box-sizing: border-box;
+    text-align: center;
+}
+.outmain {
+    margin: 0;
+    border: 16px solid lightgrey;
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
